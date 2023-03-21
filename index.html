@@ -1,0 +1,148 @@
+<!DOCTYPE html> <html><head>
+        <title>QUIZ</title>
+    <style>*{
+            padding: 0;
+            margin: 0;
+            border: 0;
+            outline: none;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+            color: white;
+            background-color: #070707;
+        }
+        img{
+            width: 400px;
+            margin: 10px 15px 0 15px;
+            box-shadow: 0 0 10px #151212;
+            border-radius: 18px;
+            
+        }
+        .question{
+            margin: 10px 0 20px 0;
+
+        }
+        .container{
+            width: 65vw;
+            height: 80vh;
+            background-color: #1A1717;
+            border-radius: 30px;
+            padding: 20px;
+            text-align: center;
+            border: 3px solid #162EAE;
+            box-shadow: 0 0 20px #162EAE;
+            
+        }
+        .form{
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        input{
+            width: 200px;
+            height: 40px;
+            padding: 10px;
+            transition: .5s;
+            background-color: #070707;
+            color: white;
+            box-shadow: 0 0 10px #151212;
+            border-radius: 5px;
+
+            
+        }
+        input::placeholder{
+            color: rgba(255, 255, 255, .3);
+        }
+        button{
+            width: 100px;
+            height: 40px;
+            transition: .5s;
+            background-color:#070707;
+            color: white;
+            box-shadow: 0 0 10px #151212;
+            border-radius: 5px;
+        }
+        input:hover, button:hover{
+            background-color: #393333;
+        }
+        input:active, button:active{
+            background-color: #1A1717;
+        }
+        .next, .next1{
+            width: 70px;
+            float: right;
+            margin-right: 30px;
+            
+        }
+        .second, .third, .four, .five{
+            display: none;
+        }</style></head>
+    <body>
+        <div class="container first">
+        <h2 class="question">Which are human limb you quiz. Are you ready?</h2>
+        <img src="https://www.theladders.com/wp-content/uploads/brain-2.png" alt="picture">
+        <div class="form">
+            <input type="text" class="input-data" placeholder="Yes or NO">
+            <button class="submit">Submit</button>
+        </div>
+        <button class="next-one">Next</button>
+    </div>
+    <div class="container second">
+        <h2 class="question">Are you creative person?</h2>
+        <img src="https://www.theladders.com/wp-content/uploads/brain-2.png" alt="picture">
+        <div class="form">
+            <input type="text" class="input-data" placeholder="Yes or NO">
+            <button class="submit">Submit</button>
+        </div>
+        <button class="next">Next</button>
+    </div>
+    <div class="container third">
+        <h2 class="question">Are you creative person?</h2>
+        <img src="https://www.theladders.com/wp-content/uploads/brain-2.png" alt="picture">
+        <div class="form">
+            <input type="text" class="input-data" placeholder="Yes or NO">
+            <button class="submit">Submit</button>
+        </div>
+        <button class="next">Next</button>
+    </div>
+    <div class="container four">
+        <h2 class="question">Are you creative person?</h2>
+        <img src="https://www.theladders.com/wp-content/uploads/brain-2.png" alt="picture">
+        <div class="form">
+            <input type="text" class="input-data" placeholder="Yes or NO">
+            <button class="submit">Submit</button>
+        </div>
+        <button class="next">Next</button>
+    </div>
+    <div class="container five">
+        <h2 class="question">Are you creative person?</h2>
+        <img src="https://www.theladders.com/wp-content/uploads/brain-2.png" alt="picture">
+        <div class="form">
+            <input type="text" class="input-data" placeholder="Yes or NO">
+            <button class="submit">Submit</button>
+        </div>
+        <button class="next">Next</button>
+    </div>
+    
+
+<script>
+/*__POPCODESTART__*/
+var inputData = document.querySelector(".input-data");
+var submitButton = document.querySelector('.submit');
+var nextButtonOne = document.querySelector(".next-one");
+var body = document.querySelector('body');
+var firstCon = document.querySelector(".first");
+var secondCon = document.querySelector('.second');
+var thirdCon = document.querySelector('.third');
+var fourCon = document.querySelector('.four');
+var fiveCon = document.querySelector('.five');
+
+nextButtonOne.onclick = function () {
+  var x = inputData.value;
+  alert(x);
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbImlucHV0RGF0YSIsImRvY3VtZW50IiwicXVlcnlTZWxlY3RvciIsInN1Ym1pdEJ1dHRvbiIsIm5leHRCdXR0b25PbmUiLCJib2R5IiwiZmlyc3RDb24iLCJzZWNvbmRDb24iLCJ0aGlyZENvbiIsImZvdXJDb24iLCJmaXZlQ29uIiwib25jbGljayIsIngiLCJ2YWx1ZSIsImFsZXJ0Il0sIm1hcHBpbmdzIjoiQUFBQSxJQUFJQSxTQUFTLEdBQUdDLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixhQUF2QixDQUFoQjtBQUNBLElBQUlDLFlBQVksR0FBR0YsUUFBUSxDQUFDQyxhQUFULENBQXVCLFNBQXZCLENBQW5CO0FBQ0EsSUFBSUUsYUFBYSxHQUFHSCxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsV0FBdkIsQ0FBcEI7QUFDQSxJQUFJRyxJQUFJLEdBQUdKLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixNQUF2QixDQUFYO0FBQ0EsSUFBSUksUUFBUSxHQUFHTCxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsUUFBdkIsQ0FBZjtBQUNBLElBQUlLLFNBQVMsR0FBR04sUUFBUSxDQUFDQyxhQUFULENBQXVCLFNBQXZCLENBQWhCO0FBQ0EsSUFBSU0sUUFBUSxHQUFHUCxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsUUFBdkIsQ0FBZjtBQUNBLElBQUlPLE9BQU8sR0FBR1IsUUFBUSxDQUFDQyxhQUFULENBQXVCLE9BQXZCLENBQWQ7QUFDQSxJQUFJUSxPQUFPLEdBQUdULFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixPQUF2QixDQUFkOztBQUVBRSxhQUFhLENBQUNPLE9BQWQsR0FBd0IsWUFBVTtBQUM5QixNQUFJQyxDQUFDLEdBQUdaLFNBQVMsQ0FBQ2EsS0FBbEI7QUFDQUMsRUFBQUEsS0FBSyxDQUFDRixDQUFELENBQUw7QUFDSCxDQUhEIiwic291cmNlc0NvbnRlbnQiOlsibGV0IGlucHV0RGF0YSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuaW5wdXQtZGF0YVwiKTtcbmxldCBzdWJtaXRCdXR0b24gPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcuc3VibWl0Jyk7XG5sZXQgbmV4dEJ1dHRvbk9uZSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIubmV4dC1vbmVcIik7XG5sZXQgYm9keSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJ2JvZHknKTtcbmxldCBmaXJzdENvbiA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuZmlyc3RcIik7XG5sZXQgc2Vjb25kQ29uID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLnNlY29uZCcpO1xubGV0IHRoaXJkQ29uID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLnRoaXJkJyk7XG5sZXQgZm91ckNvbiA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5mb3VyJyk7XG5sZXQgZml2ZUNvbiA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5maXZlJyk7XG5cbm5leHRCdXR0b25PbmUub25jbGljayA9IGZ1bmN0aW9uKCl7XG4gICAgbGV0IHggPSBpbnB1dERhdGEudmFsdWU7XG4gICAgYWxlcnQoeCk7XG59OyJdfQ==</script></body></html>
