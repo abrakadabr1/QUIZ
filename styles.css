@@ -1,0 +1,81 @@
+*{
+            padding: 0;
+            margin: 0;
+            border: 0;
+            outline: none;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+            color: white;
+            background-color: #070707;
+        }
+        img{
+            width: 400px;
+            margin: 10px 15px 0 15px;
+            box-shadow: 0 0 10px #151212;
+            border-radius: 18px;
+            
+        }
+        .question{
+            margin: 10px 0 20px 0;
+
+        }
+        .container{
+            width: 65vw;
+            height: 80vh;
+            background-color: #1A1717;
+            border-radius: 30px;
+            padding: 20px;
+            text-align: center;
+            border: 3px solid #162EAE;
+            box-shadow: 0 0 20px #162EAE;
+            
+        }
+        .form{
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        input{
+            width: 200px;
+            height: 40px;
+            padding: 10px;
+            transition: .5s;
+            background-color: #070707;
+            color: white;
+            box-shadow: 0 0 10px #151212;
+            border-radius: 5px;
+
+            
+        }
+        input::placeholder{
+            color: rgba(255, 255, 255, .3);
+        }
+        button{
+            width: 100px;
+            height: 40px;
+            transition: .5s;
+            background-color:#070707;
+            color: white;
+            box-shadow: 0 0 10px #151212;
+            border-radius: 5px;
+        }
+        input:hover, button:hover{
+            background-color: #393333;
+        }
+        input:active, button:active{
+            background-color: #1A1717;
+        }
+        .next, .next1{
+            width: 70px;
+            float: right;
+            margin-right: 30px;
+            
+        }
+        .second, .third, .four, .five{
+            display: none;
+        }
