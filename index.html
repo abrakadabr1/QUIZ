@@ -1,148 +1,160 @@
 <!DOCTYPE html> <html><head>
-        <title>QUIZ</title>
+        <title>QUIZ Amangali Kairatuly</title>
     <style>*{
-            padding: 0;
-            margin: 0;
-            border: 0;
-            outline: none;
-            box-sizing: border-box;
-        }
-        body{
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: sans-serif;
-            color: white;
-            background-color: #070707;
-        }
-        img{
-            width: 400px;
-            margin: 10px 15px 0 15px;
-            box-shadow: 0 0 10px #151212;
-            border-radius: 18px;
+	padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+}
+body{
+	height: 100vh;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+    background-color: #070707;
+}
+img{
+    width: 400px;
+    margin: 10px 15px 0 15px;
+    box-shadow: 0 0 10px #151212;
+    border-radius: 18px;
             
-        }
-        .question{
-            margin: 10px 0 20px 0;
+}
+.question{
+    margin: 10px 0 20px 0;
 
-        }
-        .container{
-            width: 65vw;
-            height: 80vh;
-            background-color: #1A1717;
-            border-radius: 30px;
-            padding: 20px;
-            text-align: center;
-            border: 3px solid #162EAE;
-            box-shadow: 0 0 20px #162EAE;
+}
+.container{
+    background-color: #1A1717;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #162EAE;
+    box-shadow: 0 0 20px #162EAE;
             
-        }
-        .form{
-            margin-top: 30px;
-            margin-bottom: 10px;
-        }
-        input{
-            width: 200px;
-            height: 40px;
-            padding: 10px;
-            transition: .5s;
-            background-color: #070707;
-            color: white;
-            box-shadow: 0 0 10px #151212;
-            border-radius: 5px;
-
-            
-        }
-        input::placeholder{
-            color: rgba(255, 255, 255, .3);
-        }
-        button{
-            width: 100px;
-            height: 40px;
-            transition: .5s;
-            background-color:#070707;
-            color: white;
-            box-shadow: 0 0 10px #151212;
-            border-radius: 5px;
-        }
-        input:hover, button:hover{
-            background-color: #393333;
-        }
-        input:active, button:active{
-            background-color: #1A1717;
-        }
-        .next, .next1{
-            width: 70px;
-            float: right;
-            margin-right: 30px;
-            
-        }
-        .second, .third, .four, .five{
-            display: none;
-        }</style></head>
+}
+.form{
+    margin-top: 30px;
+	margin-bottom: 10px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    transition: .5s;
+    background-color: #070707;
+    color: white;
+    box-shadow: 0 0 10px #151212;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, .3);
+}
+.button{
+	width: 100px;
+    height: 50px;
+    transition: .5s;
+    background-color:#070707;
+    color: white;
+    box-shadow: 0 0 10px #151212;
+    border-radius: 5px;
+}
+input:hover, button:hover{
+    background-color: #393333;
+}
+input:active, button:active{
+    background-color: #1A1717;
+}
+.con2, .con3, .con4, .con5{
+	display: none;
+}</style></head>
     <body>
-        <div class="container first">
+        <div class="container con1">
         <h2 class="question">Which are human limb you quiz. Are you ready?</h2>
-        <img src="https://www.theladders.com/wp-content/uploads/brain-2.png" alt="picture">
-        <div class="form">
-            <input type="text" class="input-data" placeholder="Yes or NO">
-            <button class="submit">Submit</button>
-        </div>
-        <button class="next-one">Next</button>
+        <img src="https://media.tenor.com/Pp5Ta4hN92gAAAAC/are-you.gif" alt="picture">
+        
+        	<div class="form">
+                <form action="">
+            		<input type="text" name="choose" class="input-data" placeholder="Yes or NO" required="">
+            		<input type="submit" value="Submit" class="submit1 button">
+                </form>
+            </div>
+            
+       
     </div>
-    <div class="container second">
+    <div class="container con2">
         <h2 class="question">Are you creative person?</h2>
-        <img src="https://www.theladders.com/wp-content/uploads/brain-2.png" alt="picture">
+        <img src="https://media.tenor.com/RtRR9DTgsYMAAAAM/be-creative-innovation.gif" alt="picture">
         <div class="form">
             <input type="text" class="input-data" placeholder="Yes or NO">
-            <button class="submit">Submit</button>
+            <button class="submit2">Submit</button>
         </div>
-        <button class="next">Next</button>
+       
     </div>
-    <div class="container third">
-        <h2 class="question">Are you creative person?</h2>
-        <img src="https://www.theladders.com/wp-content/uploads/brain-2.png" alt="picture">
+    <div class="container con3">
+        <h2 class="question">Are you a strong person?</h2>
+        <img src="https://media.tenor.com/Msoe1K-z3ncAAAAM/spongebob-squarepants-strong.gif" alt="picture">
         <div class="form">
             <input type="text" class="input-data" placeholder="Yes or NO">
-            <button class="submit">Submit</button>
+            <button class="submit3">Submit</button>
         </div>
-        <button class="next">Next</button>
+       
     </div>
-    <div class="container four">
-        <h2 class="question">Are you creative person?</h2>
-        <img src="https://www.theladders.com/wp-content/uploads/brain-2.png" alt="picture">
+    <div class="container con4">
+        <h2 class="question">Are you a smart person?</h2>
+        <img src="https://media1.giphy.com/media/W35DnRbN4oDHIAApdk/200w.gif?cid=6c09b9520jp541wqtcrr88534k2m4sh6huhmo34tnk30zf5n&amp;rid=200w.gif&amp;ct=g" alt="picture">
         <div class="form">
             <input type="text" class="input-data" placeholder="Yes or NO">
-            <button class="submit">Submit</button>
+            <button class="submit4">Submit</button>
         </div>
-        <button class="next">Next</button>
+       
     </div>
-    <div class="container five">
-        <h2 class="question">Are you creative person?</h2>
+    <div class="container con5">
+        <h2 class="question">Are  </h2>
         <img src="https://www.theladders.com/wp-content/uploads/brain-2.png" alt="picture">
-        <div class="form">
-            <input type="text" class="input-data" placeholder="Yes or NO">
-            <button class="submit">Submit</button>
-        </div>
-        <button class="next">Next</button>
+        
+            
+        
+       
     </div>
     
 
 <script>
 /*__POPCODESTART__*/
-var inputData = document.querySelector(".input-data");
-var submitButton = document.querySelector('.submit');
-var nextButtonOne = document.querySelector(".next-one");
-var body = document.querySelector('body');
-var firstCon = document.querySelector(".first");
-var secondCon = document.querySelector('.second');
-var thirdCon = document.querySelector('.third');
-var fourCon = document.querySelector('.four');
-var fiveCon = document.querySelector('.five');
+var con1 = document.querySelector('.con1');
+var con2 = document.querySelector('.con2');
+var con3 = document.querySelector('.con3');
+var con4 = document.querySelector('.con4');
+var con5 = document.querySelector('.con5');
+var submit1 = document.querySelector('.submit1');
+var submit2 = document.querySelector('.submit2');
+var submit3 = document.querySelector('.submit3');
+var submit4 = document.querySelector('.submit4');
+var data1;
+var data2;
+var data3;
+var data4;
+var data5;
 
-nextButtonOne.onclick = function () {
-  var x = inputData.value;
-  alert(x);
+submit1.onclick = function () {
+  con1.style.display = 'none';
+  con2.style.display = 'block';
 };
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbImlucHV0RGF0YSIsImRvY3VtZW50IiwicXVlcnlTZWxlY3RvciIsInN1Ym1pdEJ1dHRvbiIsIm5leHRCdXR0b25PbmUiLCJib2R5IiwiZmlyc3RDb24iLCJzZWNvbmRDb24iLCJ0aGlyZENvbiIsImZvdXJDb24iLCJmaXZlQ29uIiwib25jbGljayIsIngiLCJ2YWx1ZSIsImFsZXJ0Il0sIm1hcHBpbmdzIjoiQUFBQSxJQUFJQSxTQUFTLEdBQUdDLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixhQUF2QixDQUFoQjtBQUNBLElBQUlDLFlBQVksR0FBR0YsUUFBUSxDQUFDQyxhQUFULENBQXVCLFNBQXZCLENBQW5CO0FBQ0EsSUFBSUUsYUFBYSxHQUFHSCxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsV0FBdkIsQ0FBcEI7QUFDQSxJQUFJRyxJQUFJLEdBQUdKLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixNQUF2QixDQUFYO0FBQ0EsSUFBSUksUUFBUSxHQUFHTCxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsUUFBdkIsQ0FBZjtBQUNBLElBQUlLLFNBQVMsR0FBR04sUUFBUSxDQUFDQyxhQUFULENBQXVCLFNBQXZCLENBQWhCO0FBQ0EsSUFBSU0sUUFBUSxHQUFHUCxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsUUFBdkIsQ0FBZjtBQUNBLElBQUlPLE9BQU8sR0FBR1IsUUFBUSxDQUFDQyxhQUFULENBQXVCLE9BQXZCLENBQWQ7QUFDQSxJQUFJUSxPQUFPLEdBQUdULFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixPQUF2QixDQUFkOztBQUVBRSxhQUFhLENBQUNPLE9BQWQsR0FBd0IsWUFBVTtBQUM5QixNQUFJQyxDQUFDLEdBQUdaLFNBQVMsQ0FBQ2EsS0FBbEI7QUFDQUMsRUFBQUEsS0FBSyxDQUFDRixDQUFELENBQUw7QUFDSCxDQUhEIiwic291cmNlc0NvbnRlbnQiOlsibGV0IGlucHV0RGF0YSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuaW5wdXQtZGF0YVwiKTtcbmxldCBzdWJtaXRCdXR0b24gPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcuc3VibWl0Jyk7XG5sZXQgbmV4dEJ1dHRvbk9uZSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIubmV4dC1vbmVcIik7XG5sZXQgYm9keSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJ2JvZHknKTtcbmxldCBmaXJzdENvbiA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuZmlyc3RcIik7XG5sZXQgc2Vjb25kQ29uID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLnNlY29uZCcpO1xubGV0IHRoaXJkQ29uID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLnRoaXJkJyk7XG5sZXQgZm91ckNvbiA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5mb3VyJyk7XG5sZXQgZml2ZUNvbiA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5maXZlJyk7XG5cbm5leHRCdXR0b25PbmUub25jbGljayA9IGZ1bmN0aW9uKCl7XG4gICAgbGV0IHggPSBpbnB1dERhdGEudmFsdWU7XG4gICAgYWxlcnQoeCk7XG59OyJdfQ==</script></body></html>
+
+submit2.onclick = function () {
+  con2.style.display = 'none';
+  con3.style.display = 'block';
+};
+
+submit3.onclick = function () {
+  con3.style.display = 'none';
+  con4.style.display = 'block';
+};
+
+submit4.onclick = function () {
+  con4.style.display = 'none';
+  con5.style.display = 'block';
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbImNvbjEiLCJkb2N1bWVudCIsInF1ZXJ5U2VsZWN0b3IiLCJjb24yIiwiY29uMyIsImNvbjQiLCJjb241Iiwic3VibWl0MSIsInN1Ym1pdDIiLCJzdWJtaXQzIiwic3VibWl0NCIsImRhdGExIiwiZGF0YTIiLCJkYXRhMyIsImRhdGE0IiwiZGF0YTUiLCJvbmNsaWNrIiwic3R5bGUiLCJkaXNwbGF5Il0sIm1hcHBpbmdzIjoiQUFBQSxJQUFJQSxJQUFJLEdBQUdDLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixPQUF2QixDQUFYO0FBQ0EsSUFBSUMsSUFBSSxHQUFHRixRQUFRLENBQUNDLGFBQVQsQ0FBdUIsT0FBdkIsQ0FBWDtBQUNBLElBQUlFLElBQUksR0FBR0gsUUFBUSxDQUFDQyxhQUFULENBQXVCLE9BQXZCLENBQVg7QUFDQSxJQUFJRyxJQUFJLEdBQUdKLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixPQUF2QixDQUFYO0FBQ0EsSUFBSUksSUFBSSxHQUFHTCxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsT0FBdkIsQ0FBWDtBQUVBLElBQUlLLE9BQU8sR0FBR04sUUFBUSxDQUFDQyxhQUFULENBQXVCLFVBQXZCLENBQWQ7QUFDQSxJQUFJTSxPQUFPLEdBQUdQLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixVQUF2QixDQUFkO0FBQ0EsSUFBSU8sT0FBTyxHQUFHUixRQUFRLENBQUNDLGFBQVQsQ0FBdUIsVUFBdkIsQ0FBZDtBQUNBLElBQUlRLE9BQU8sR0FBR1QsUUFBUSxDQUFDQyxhQUFULENBQXVCLFVBQXZCLENBQWQ7QUFHQSxJQUFJUyxLQUFKO0FBQ0EsSUFBSUMsS0FBSjtBQUNBLElBQUlDLEtBQUo7QUFDQSxJQUFJQyxLQUFKO0FBQ0EsSUFBSUMsS0FBSjs7QUFFQVIsT0FBTyxDQUFDUyxPQUFSLEdBQWtCLFlBQU07QUFDdkJoQixFQUFBQSxJQUFJLENBQUNpQixLQUFMLENBQVdDLE9BQVgsR0FBcUIsTUFBckI7QUFDR2YsRUFBQUEsSUFBSSxDQUFDYyxLQUFMLENBQVdDLE9BQVgsR0FBcUIsT0FBckI7QUFDSCxDQUhEOztBQUlBVixPQUFPLENBQUNRLE9BQVIsR0FBa0IsWUFBTTtBQUN2QmIsRUFBQUEsSUFBSSxDQUFDYyxLQUFMLENBQVdDLE9BQVgsR0FBcUIsTUFBckI7QUFDR2QsRUFBQUEsSUFBSSxDQUFDYSxLQUFMLENBQVdDLE9BQVgsR0FBcUIsT0FBckI7QUFFSCxDQUpEOztBQUtBVCxPQUFPLENBQUNPLE9BQVIsR0FBa0IsWUFBTTtBQUN2QlosRUFBQUEsSUFBSSxDQUFDYSxLQUFMLENBQVdDLE9BQVgsR0FBcUIsTUFBckI7QUFDR2IsRUFBQUEsSUFBSSxDQUFDWSxLQUFMLENBQVdDLE9BQVgsR0FBcUIsT0FBckI7QUFFSCxDQUpEOztBQUtBUixPQUFPLENBQUNNLE9BQVIsR0FBa0IsWUFBTTtBQUN2QlgsRUFBQUEsSUFBSSxDQUFDWSxLQUFMLENBQVdDLE9BQVgsR0FBcUIsTUFBckI7QUFDR1osRUFBQUEsSUFBSSxDQUFDVyxLQUFMLENBQVdDLE9BQVgsR0FBcUIsT0FBckI7QUFFSCxDQUpEIiwic291cmNlc0NvbnRlbnQiOlsibGV0IGNvbjEgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcuY29uMScpO1xubGV0IGNvbjIgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcuY29uMicpO1xubGV0IGNvbjMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcuY29uMycpO1xubGV0IGNvbjQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcuY29uNCcpO1xubGV0IGNvbjUgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcuY29uNScpO1xuXG5sZXQgc3VibWl0MSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5zdWJtaXQxJyk7XG5sZXQgc3VibWl0MiA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5zdWJtaXQyJyk7XG5sZXQgc3VibWl0MyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5zdWJtaXQzJyk7XG5sZXQgc3VibWl0NCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5zdWJtaXQ0Jyk7XG5cblxubGV0IGRhdGExO1xubGV0IGRhdGEyO1xubGV0IGRhdGEzO1xubGV0IGRhdGE0O1xubGV0IGRhdGE1O1xuXG5zdWJtaXQxLm9uY2xpY2sgPSAoKSA9PiB7XG5cdGNvbjEuc3R5bGUuZGlzcGxheSA9ICdub25lJztcbiAgICBjb24yLnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snO1xufTtcbnN1Ym1pdDIub25jbGljayA9ICgpID0+IHtcblx0Y29uMi5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnO1xuICAgIGNvbjMuc3R5bGUuZGlzcGxheSA9ICdibG9jayc7XG4gICAgXG59O1xuc3VibWl0My5vbmNsaWNrID0gKCkgPT4ge1xuXHRjb24zLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7XG4gICAgY29uNC5zdHlsZS5kaXNwbGF5ID0gJ2Jsb2NrJztcbiAgICBcbn07XG5zdWJtaXQ0Lm9uY2xpY2sgPSAoKSA9PiB7XG5cdGNvbjQuc3R5bGUuZGlzcGxheSA9ICdub25lJztcbiAgICBjb241LnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snO1xuICAgIFxufTtcbiJdfQ==</script></body></html>
